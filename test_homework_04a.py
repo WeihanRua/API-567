@@ -3,7 +3,7 @@ import unittest
 
 class TestGithub(unittest.TestCase):
     def test_Github(self):
-        self.assertEqual(Github('richkempinski'), ['Repo: hellogitworld  Number of commits: 30', 'Repo: helloworld  Number of commits: 6', 'Repo: Mocks  Number of commits: 9', 'Repo: Project1  Number of commits: 2', 'Repo: threads-of-life  Number of commits: 1'])
+        self.assertEqual(Github('WeihanRua'), ['Repo: 567-assignment-week1  Number of commits: 2', 'Repo: API-567  Number of commits: 9', 'Repo: HW10  Number of commits: 2', 'Repo: Trangle567  Number of commits: 7'])
 
 
 if __name__ == '__main__':
